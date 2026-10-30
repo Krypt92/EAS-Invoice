@@ -1,9 +1,9 @@
 # Privacy Policy for EAS-Invoice & Quote Generator
 
 **Application Name:** EAS-Invoice & Quote Generator (Remix EAS Invoice)  
-**Package Identifier:** `com.aistudio.easinvoice.zlcyvk`  
+**Package Identifier:** `com.aistudio.easinvoice`  
 **Developer:** Kryptic DSD  
-**Developer Contact:** `krypticdsd@gmail.com` | `chris.krypt92@gmail.com`  
+**Developer Contact:** `krypticdsd@gmail.com`
 **Effective Date:** October 30, 2026  
 
 ---
@@ -105,5 +105,5 @@ If you have questions about this Privacy Policy or require support, please conta
 
 **Kryptic DSD**  
 Email: [krypticdsd@gmail.com](mailto:krypticdsd@gmail.com)  
-Alternate: [chris.krypt92@gmail.com](mailto:chris.krypt92@gmail.com)  
-Package: `com.aistudio.easinvoice.zlcyvk`
+
+Package: `com.aistudio.easinvoice`
