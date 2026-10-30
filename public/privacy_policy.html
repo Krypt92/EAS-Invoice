@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - EAS-Invoice & Quote Generator</title>
+    <meta name="description" content="Official Privacy Policy for EAS-Invoice & Quote Generator by Kryptic DSD for Google Play Store compliance.">
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --primary-light: #3b82f6;
+            --primary-bg: #eff6ff;
+            --text-main: #1f2937;
+            --text-muted: #4b5563;
+            --bg-body: #f8fafc;
+            --bg-card: #ffffff;
+            --border: #e2e8f0;
+            --success: #15803d;
+            --success-bg: #f0fdf4;
+            --badge-bg: #e0e7ff;
+            --badge-text: #3730a3;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary: #60a5fa;
+                --primary-light: #93c5fd;
+                --primary-bg: #1e293b;
+                --text-main: #f3f4f6;
+                --text-muted: #9ca3af;
+                --bg-body: #0f172a;
+                --bg-card: #1e293b;
+                --border: #334155;
+                --success: #4ade80;
+                --success-bg: #064e3b;
+                --badge-bg: #312e81;
+                --badge-text: #c7d2fe;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.65;
+            padding: 24px 16px;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background-color: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 20px 16px;
+                border-radius: 12px;
+            }
+        }
+
+        .header {
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+
+        .app-badge {
+            display: inline-block;
+            background-color: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 13px;
+            font-weight: 600;
+            padding: 4px 12px;
+            border-radius: 9999px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        h1 {
+            font-size: 30px;
+            font-weight: 800;
+            color: var(--primary);
+            line-height: 1.25;
+            margin-bottom: 8px;
+        }
+
+        .meta {
+            color: var(--text-muted);
+            font-size: 14px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-top: 8px;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .highlight-banner {
+            background-color: var(--success-bg);
+            border: 1px solid var(--success);
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin-bottom: 32px;
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+        }
+
+        .highlight-banner svg {
+            flex-shrink: 0;
+            width: 24px;
+            height: 24px;
+            color: var(--success);
+            margin-top: 2px;
+        }
+
+        .highlight-text h3 {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--success);
+            margin-bottom: 4px;
+        }
+
+        .highlight-text p {
+            font-size: 14px;
+            color: var(--text-main);
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-top: 32px;
+            margin-bottom: 14px;
+            padding-bottom: 6px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            color: var(--text-main);
+        }
+
+        p {
+            margin-bottom: 14px;
+            color: var(--text-muted);
+            font-size: 15px;
+        }
+
+        ul, ol {
+            margin-bottom: 16px;
+            padding-left: 24px;
+            color: var(--text-muted);
+            font-size: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        li strong {
+            color: var(--text-main);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+
+        th, td {
+            border: 1px solid var(--border);
+            padding: 12px 14px;
+            text-align: left;
+        }
+
+        th {
+            background-color: var(--primary-bg);
+            color: var(--primary);
+            font-weight: 700;
+        }
+
+        td {
+            color: var(--text-muted);
+        }
+
+        .contact-box {
+            background-color: var(--primary-bg);
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 32px;
+            border: 1px solid var(--border);
+        }
+
+        .contact-box h3 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+
+        .contact-box a {
+            color: var(--primary-light);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        .button-bar {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background-color: var(--primary-bg);
+            color: var(--primary);
+            border: 1px solid var(--border);
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .btn:hover {
+            background-color: var(--primary);
+            color: #ffffff;
+        }
+
+        @media print {
+            body {
+                background: none;
+                color: #000;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                border: none;
+                max-width: 100%;
+                padding: 0;
+            }
+            .button-bar {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="app-badge">Official Google Play Privacy Policy</span>
+            <h1>Privacy Policy</h1>
+            <div class="meta">
+                <div class="meta-item">
+                    <strong>Application:</strong> EAS-Invoice & Quote Generator (Remix EAS Invoice)
+                </div>
+                <div class="meta-item">
+                    <strong>Package ID:</strong> com.aistudio.easinvoice.zlcyvk
+                </div>
+                <div class="meta-item">
+                    <strong>Developer:</strong> Kryptic DSD
+                </div>
+                <div class="meta-item">
+                    <strong>Effective Date:</strong> October 30, 2026
+                </div>
+            </div>
+        </div>
+
+        <div class="button-bar">
+            <button class="btn" onclick="window.print()">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2M6 14h12v8H6z"/></svg>
+                Print Policy
+            </button>
+            <button class="btn" onclick="copyCurrentUrl()">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                Copy Public URL
+            </button>
+        </div>
+
+        <div class="highlight-banner">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+            <div class="highlight-text">
+                <h3>100% Offline &amp; Privacy-First Guarantee</h3>
+                <p>EAS-Invoice & Quote Generator operates entirely on your device. We do not collect, transmit, store, sell, or monitor any personal, financial, or business data on any external server. All invoices, clients, products, and banking details remain exclusively on your device.</p>
+            </div>
+        </div>
+
+        <h2>1. Overview and Introduction</h2>
+        <p>This Privacy Policy applies to the mobile application <strong>EAS-Invoice & Quote Generator</strong> ("App", "Application", or "Service"), developed and maintained by <strong>Kryptic DSD</strong> ("we", "us", or "our").</p>
+        <p>We are deeply committed to protecting your privacy and complying with all applicable global data protection laws, including the <strong>Google Play Developer Program Policies (User Data Policy)</strong>, the <strong>General Data Protection Regulation (GDPR - Regulation (EU) 2016/679)</strong>, the <strong>Protection of Personal Information Act (POPIA - Act No. 4 of 2013, South Africa)</strong>, and the <strong>California Consumer Privacy Act (CCPA/CPRA)</strong>.</p>
+        <p>By installing and using the Application, you acknowledge and agree to the practices described in this Privacy Policy.</p>
+
+        <h2>2. Data Collection and Usage Practices</h2>
+        <p>The Application is architected as an <strong>offline-first, standalone productivity utility</strong>. Our data practices are straightforward:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Data Category</th>
+                    <th>Examples / Types</th>
+                    <th>Where Stored</th>
+                    <th>Transmitted to External Servers?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Client Data</strong></td>
+                    <td>Client names, phone numbers, email addresses, physical addresses, tax / VAT numbers, account numbers.</td>
+                    <td>Local SQLite database (Room) on-device only.</td>
+                    <td><strong>NO. Zero server transmission.</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Business &amp; Banking Details</strong></td>
+                    <td>Your business name, registration number, address, bank name, account holder, account number, branch code.</td>
+                    <td>Local SQLite database (Room) on-device only.</td>
+                    <td><strong>NO. Zero server transmission.</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Catalog &amp; Invoices</strong></td>
+                    <td>Product listings, rates, discounts, generated Tax Invoices, Quotations, Proforma Invoices, timestamps.</td>
+                    <td>Local SQLite database (Room) on-device only.</td>
+                    <td><strong>NO. Zero server transmission.</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Device Telemetry &amp; Diagnostics</strong></td>
+                    <td>IP addresses, device identifiers, advertising IDs, crash logs, GPS location.</td>
+                    <td>None collected.</td>
+                    <td><strong>NO. Zero tracking SDKs.</strong></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>3. Device Permissions &amp; Hardware Access</h2>
+        <p>We strictly adhere to the principle of least-privilege. EAS-Invoice & Quote Generator requests <strong>zero dangerous permissions</strong> at runtime:</p>
+        <ul>
+            <li><strong>No Location Access:</strong> The App does not request or access GPS, coarse location, or network cell telemetry.</li>
+            <li><strong>No Contacts Permission:</strong> The App does not read your device contacts address book. All clients are entered manually or imported via explicit user action.</li>
+            <li><strong>No Camera or Microphone Access:</strong> The App does not require access to your device camera or audio hardware.</li>
+            <li><strong>Zero-Permission Media Picker:</strong> When you choose a company logo or import a backup file, the app uses Android's modern system Photo Picker (<code>PickVisualMedia</code>) and Storage Access Framework (SAF). The app never requests broad storage access (<code>READ_EXTERNAL_STORAGE</code> or <code>MANAGE_EXTERNAL_STORAGE</code>).</li>
+            <li><strong>Secure File Sharing:</strong> When you share an invoice PDF or CSV export via WhatsApp, Gmail, or Google Drive, the App utilizes Android's secure <code>FileProvider</code>. Temporary read access is strictly scoped to the single file you chose to share, and only granted to the target app you selected.</li>
+        </ul>
+
+        <h2>4. Third-Party Services and Analytics</h2>
+        <ul>
+            <li><strong>Zero Advertising Networks:</strong> The Application contains no banner ads, interstitial ads, video ads, or advertising SDKs.</li>
+            <li><strong>Zero Analytics / Behavioral Trackers:</strong> We do not integrate Google Analytics for Firebase, Mixpanel, Facebook SDK, AppsFlyer, or any other tracking tools.</li>
+            <li><strong>Zero Remote API Synchronization:</strong> The application does not sync with an external proprietary cloud database. All data persistence is performed locally.</li>
+        </ul>
+
+        <h2>5. Data Security and Cryptography</h2>
+        <p>The security of your business and client records is paramount:</p>
+        <ul>
+            <li><strong>Sandbox Isolation:</strong> All databases, application preferences, and temporary files are isolated within the Android application sandbox, preventing unauthorized inspection by other applications on your device.</li>
+            <li><strong>Optional AES Encrypted Backups:</strong> The App provides built-in military-grade AES (Advanced Encryption Standard) encryption for exported JSON backup archives. You can set a custom master password when creating a backup, preventing unauthorized decryption if the file is copied or shared.</li>
+            <li><strong>User Responsibility:</strong> Because all data is stored locally on your device, you are responsible for maintaining the physical security of your smartphone/tablet, including the use of device lock screens (PIN, password, fingerprint, or facial recognition).</li>
+        </ul>
+
+        <h2>6. Data Retention, Portability, and Right to Erasure (Deletion)</h2>
+        <p>Under international privacy laws (GDPR Art. 17, POPIA Sec. 24, CCPA):</p>
+        <ul>
+            <li><strong>Data Retention:</strong> Records remain stored locally on your device for as long as the application remains installed, or until you choose to delete them.</li>
+            <li><strong>User Control &amp; Deletion:</strong> You have immediate and unrestricted access to delete any client, product, document, or snapshot from within the app interface.</li>
+            <li><strong>Complete Data Erasure:</strong> You can completely and irreversibly erase all application data at any time by going to your Android device settings: <code>Settings &gt; Apps &gt; EAS-Invoice &gt; Storage &gt; Clear Data</code>, or by uninstalling the application.</li>
+            <li><strong>Data Portability:</strong> You can export complete, unencumbered copies of your data at any time in standard JSON or CSV spreadsheet formats.</li>
+        </ul>
+
+        <h2>7. Compliance with Regional Legal Frameworks</h2>
+        <h3>A. South Africa - Protection of Personal Information Act (POPIA Act No. 4 of 2013)</h3>
+        <p>When you input client personal information (names, emails, addresses, VAT numbers) into this App, you act as the <strong>"Responsible Party"</strong> under POPIA. Kryptic DSD does not process, receive, or store your clients' information, and therefore does not act as an "Operator". You are responsible for ensuring that you have legal grounds to record and invoice your customers.</p>
+
+        <h3>B. European Union - General Data Protection Regulation (GDPR)</h3>
+        <p>Because no personal data is transmitted from your device to Kryptic DSD, Kryptic DSD is not a Data Controller or Data Processor under GDPR for data entered into the app. All processing occurs locally on your hardware under your direct manual control (GDPR Article 2(2)(a) household / individual enterprise exemption).</p>
+
+        <h3>C. California - CCPA / CPRA Disclosures</h3>
+        <p>We do not "sell" or "share" personal information, as those terms are defined under the California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA). We collect zero personal information from California consumers.</p>
+
+        <h2>8. Children's Online Privacy (COPPA Compliance)</h2>
+        <p>EAS-Invoice & Quote Generator is a professional business productivity and invoicing tool designed for entrepreneurs, businesses, and contractors. It is not intended for or directed at children under the age of 13. We do not knowingly collect or solicit personal information from children under 13.</p>
+
+        <h2>9. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time to reflect changes in our legal obligations or application enhancements. Any updates will be published with a revised "Effective Date" at the top of this document, and the updated policy will be accessible both online and inside the application's Help and Settings menus.</p>
+
+        <div class="contact-box">
+            <h3>10. Contact Us &amp; Developer Information</h3>
+            <p>If you have any questions, suggestions, or concerns regarding this Privacy Policy or your data privacy rights, please contact:</p>
+            <p>
+                <strong>Developer / Entity:</strong> Kryptic DSD<br>
+                <strong>Email:</strong> <a href="mailto:krypticdsd@gmail.com">krypticdsd@gmail.com</a><br>
+                <strong>Alternate Contact:</strong> <a href="mailto:chris.krypt92@gmail.com">chris.krypt92@gmail.com</a><br>
+                <strong>Application Package:</strong> com.aistudio.easinvoice.zlcyvk
+            </p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 Kryptic DSD. All rights reserved.</p>
+            <p>EAS-Invoice &amp; Quote Generator - Built with privacy by design.</p>
+        </div>
+    </div>
+
+    <script>
+        function copyCurrentUrl() {
+            const url = window.location.href;
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(url).then(function() {
+                    alert('Privacy Policy URL copied to clipboard!\n\n' + url);
+                }, function() {
+                    prompt('Copy this Privacy Policy URL:', url);
+                });
+            } else {
+                prompt('Copy this Privacy Policy URL:', url);
+            }
+        }
+    </script>
+</body>
+</html>
